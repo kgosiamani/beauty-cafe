@@ -1,0 +1,370 @@
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Inclusive Beauty Café Services</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="js/tailwind-config.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-[#1a0f11] dark:text-[#fbf8f9]">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <header
+                class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2e8ea] dark:border-b-[#3a2a2d] px-10 py-3 bg-background-light dark:bg-background-dark sticky top-0 z-50">
+                <div class="flex items-center gap-4 text-[#1a0f11] dark:text-[#fbf8f9]">
+                    <div class="size-8 text-primary">
+                        <svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Beauty Café</h2>
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <nav class="hidden md:flex items-center gap-9">
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="index.html">Home</a>
+                        <a class="text-sm font-bold leading-normal border-b-2 border-primary"
+                            href="services.html">Services</a>
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="#">Gallery</a>
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="#">About</a>
+                        <a class="text-sm font-medium leading-normal hover:text-primary transition-colors"
+                            href="#">Contact</a>
+                    </nav>
+                    <div class="flex items-center gap-4">
+                        <a href="https://wa.me/27870960143?text=Hi%20Beauty%20Café%2C%20I%27d%20like%20to%20make%20a%20booking%20please."
+                            target="_blank"
+                            class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-[#1a0f11] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/80 transition-all gap-2">
+                            <span>Book via WhatsApp</span>
+                            <!-- Icon can be added if needed, but keeping style consistent with original button which had just text initially, but adding icon makes it clear -->
+                            <span class="material-symbols-outlined text-sm">chat</span>
+                        </a>
+                        <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-primary/20"
+                            data-alt="User profile avatar"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBuvgnAmvjP8kpKVPVXM9MdlRYohr2sYyawVoVAdXUXrq0oEyZEZvsqbgrFK9Xi26GlzvQ4smarQa0U0DlmupWgbWXTvVpFDt3Nck94QoaslYq_PKr0hgpM9cRDsElbePxu83Fow-tMTucAAGsdpRJqySqISjyMFNF3Mv0JJoecOBal3R9EG-Z8eyRzyT0jdtTjmJDu5EFQodlTcjmRUQbHLuKWcssMDIvHQcQhMzG4iXhxloasSIu6Wz_FMA-3izwEMMRUtACoDH7I");'>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="flex flex-col items-center">
+                <div class="max-w-[1200px] w-full px-6 py-12 md:px-10 lg:px-20">
+                    <div class="flex flex-col md:flex-row justify-between items-end gap-6 mb-16">
+                        <div class="flex flex-col gap-4 max-w-2xl">
+                            <h1
+                                class="text-[#1a0f11] dark:text-white text-5xl md:text-6xl font-black leading-tight tracking-[-0.033em]">
+                                Curated Services
+                            </h1>
+                            <p class="text-[#93535f] dark:text-[#c4a1a7] text-lg font-normal leading-relaxed">
+                                Tailored beauty experiences for every skin tone, inspired by nature. We celebrate
+                                diversity through premium, botanical-infused rituals that reveal your unique radiance.
+                            </p>
+                        </div>
+                        <div class="flex gap-3">
+                            <button
+                                class="flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary/10 dark:bg-primary/20 text-[#1a0f11] dark:text-white text-sm font-bold border border-primary/30 hover:bg-primary/20 transition-all">
+                                <span>Filter by Type</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+                        <div class="flex flex-col group">
+                            <div class="relative overflow-hidden rounded-xl aspect-[3/4] mb-6">
+                                <div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
+                                    data-alt="Woman of color with beautifully styled hair"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB3JL3OE-zUTRld2Yem_jKWXxEt8a-M6NbsyVmgMey6BvN_xJU7q6o5I1zC60oPlusbFDzkF9fdtSLlzHOrSrAlmERA8Y0Xj2DvPR3F_qiqIneDSpHEn-TdQQhHV2bRLcxIM6TErKs3BoDIGebRzA47eheuaofSVtO7tZOY2wxHqu3M_zg7O-nxPolKrey8v7Aojpuzm-9S2oj6w83iNWZSNcIUnjNOukg_wMBT_FYWgL28xSNRkLWz7Bg5rEN5N8y52iOqlcgf0-I0");'>
+                                </div>
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-[#1a0f11] dark:text-white text-2xl font-bold">Hair</h3>
+                                    <span
+                                        class="text-primary text-sm font-bold uppercase tracking-widest">Aesthetic</span>
+                                </div>
+                                <p class="text-[#93535f] dark:text-[#c4a1a7] text-base leading-relaxed mb-4">
+                                    Master stylists specializing in all textures. From protective styles to artistic
+                                    coloring, we craft looks that celebrate your crown.
+                                </p>
+                                <div class="flex gap-3">
+                                    <button
+                                        class="flex-1 bg-primary text-[#1a0f11] h-11 rounded-lg font-bold text-sm hover:brightness-95 transition-all">Book
+                                        Now</button>
+                                    <button
+                                        class="flex-1 border border-primary/40 dark:border-primary/20 text-[#1a0f11] dark:text-white h-11 rounded-lg font-bold text-sm hover:bg-primary/5 transition-all">View
+                                        Prices</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col group">
+                            <div class="relative overflow-hidden rounded-xl aspect-[3/4] mb-6">
+                                <div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
+                                    data-alt="Hand with melanin-rich skin tone and elegant manicure"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCn5dl2XIiqywCMhOWmfFvYOgCnQGHH-ZdF4z6yXlK4AqfHOcfC_ABmSl_DSwYNpf3qRDZ67sDQdHoHVsfEqCqZmYJ8Qu1xSEJiiFNwwz_elWeE_S5YWfeZ1YeuTL5fMbtvrBTvBmO77ZRl8VYfOcEzqywLeAkfUwjm0FeDXcb2XzNQ4G7jiszSWrbtoM4h-9Tmomt9Ex3Mu4usIMaMy6DVrCtmWrXOjPIeoAqkJsM8Cxfdub-r1HmT6rdqPymFIklMeTSNoeqK9nxp");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-[#1a0f11] dark:text-white text-2xl font-bold">Nails</h3>
+                                    <span
+                                        class="text-primary text-sm font-bold uppercase tracking-widest">Precision</span>
+                                </div>
+                                <p class="text-[#93535f] dark:text-[#c4a1a7] text-base leading-relaxed mb-4">
+                                    Precision manicures designed to complement deeper skin tones using non-toxic, highly
+                                    pigmented premium lacquers.
+                                </p>
+                                <div class="flex gap-3">
+                                    <button
+                                        class="flex-1 bg-primary text-[#1a0f11] h-11 rounded-lg font-bold text-sm hover:brightness-95 transition-all">Book
+                                        Now</button>
+                                    <button
+                                        class="flex-1 border border-primary/40 dark:border-primary/20 text-[#1a0f11] dark:text-white h-11 rounded-lg font-bold text-sm hover:bg-primary/5 transition-all">View
+                                        Prices</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col group">
+                            <div class="relative overflow-hidden rounded-xl aspect-[3/4] mb-6">
+                                <div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
+                                    data-alt="Close up of a person with melanated skin and expert lash extensions"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDozNQAbDB9iLoxMM1TZICrSAmIbbokFu0kl2svyN_P6n8YEpuYdIYdOLW3xOvj_RWOFtj8lgALHw6KH8CokmgHZFyyDsKeRfex86dryv-kTrvz0msdfY70jUsZnLhp_lq2IuCFb2p-J9vqoMtqEkIvn0FCZRJEi-jZQpsIUnDTagiSoNnaDt_EhN14GO4TQe30iNM4L6qJ-sM3oKp2PGkVrYGwRLbWNp6f9Cj23PtAc8Mp8aPxv0r60fnaWmnFjm9ElfVmb0pShXUj");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-[#1a0f11] dark:text-white text-2xl font-bold">Lashes &amp; Brows
+                                    </h3>
+                                    <span class="text-primary text-sm font-bold uppercase tracking-widest">Focus</span>
+                                </div>
+                                <p class="text-[#93535f] dark:text-[#c4a1a7] text-base leading-relaxed mb-4">
+                                    Frame your gaze with shaping and tinting that enhances your natural depth. Subtle
+                                    sophistication tailored to you.
+                                </p>
+                                <div class="flex gap-3">
+                                    <button
+                                        class="flex-1 bg-primary text-[#1a0f11] h-11 rounded-lg font-bold text-sm hover:brightness-95 transition-all">Book
+                                        Now</button>
+                                    <button
+                                        class="flex-1 border border-primary/40 dark:border-primary/20 text-[#1a0f11] dark:text-white h-11 rounded-lg font-bold text-sm hover:bg-primary/5 transition-all">View
+                                        Prices</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col group">
+                            <div class="relative overflow-hidden rounded-xl aspect-[3/4] mb-6">
+                                <div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
+                                    data-alt="Black woman receiving botanical facial treatment"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDlYsBW10weSeel5ToG4CZ_Y4qUohHYctysmYb8cXnmmL55yEHLVM2l4gjflyJlZ1t6j3KiLl3j2drLAFKlAq3fXl_yQUblA6ZAJIJtDEvBteYBRfQcYMk0ESftd3eiEFixY2MRNjQA8_1-VkIlAH_Oh-alB53SGBbrCjUU21Q5jTWPs2duzvLn_iPaINccN07Yj1QHU5d4ou-oWsI1txTiWUGhZiysCWxXKR_bwZC4gKguTIfl0U3QYOerPjwRbjX-dpBFiEzRn3oX");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-[#1a0f11] dark:text-white text-2xl font-bold">Skincare</h3>
+                                    <span
+                                        class="text-primary text-sm font-bold uppercase tracking-widest">Botanical</span>
+                                </div>
+                                <p class="text-[#93535f] dark:text-[#c4a1a7] text-base leading-relaxed mb-4">
+                                    Specialized treatments for melanin-rich skin. Addressing hyperpigmentation and
+                                    hydration with cherry blossom extracts.
+                                </p>
+                                <div class="flex gap-3">
+                                    <button
+                                        class="flex-1 bg-primary text-[#1a0f11] h-11 rounded-lg font-bold text-sm hover:brightness-95 transition-all">Book
+                                        Now</button>
+                                    <button
+                                        class="flex-1 border border-primary/40 dark:border-primary/20 text-[#1a0f11] dark:text-white h-11 rounded-lg font-bold text-sm hover:bg-primary/5 transition-all">View
+                                        Prices</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col group">
+                            <div class="relative overflow-hidden rounded-xl aspect-[3/4] mb-6">
+                                <div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
+                                    data-alt="Zen body ritual for a person of color"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBm3Vo5xhsAu8Tssp73nL8o790367XRcQnkaR-UMj_i5FbhIWmrPVGA6XQyGmeGoVyDJf4NYeESOUEDqgTkmRWkz3K_3tPVTQd0Jv7xDVtX2PaJ_RW2dqnxpnOYreHS5C4sVvKxYO-nwXTIcXH2WylRUvnH0HDvUZJLsN3Zor3KYVX42vy2227Byw5kQsdhI3nNSXNoikLkZo2s_DcOuWxBmJqUJXEtNrVGD1ygE0jkJ0shMjf9rA9VbYkEF_f_tVmaPI96v4pXEtmo");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-[#1a0f11] dark:text-white text-2xl font-bold">Massage</h3>
+                                    <span class="text-primary text-sm font-bold uppercase tracking-widest">Zen</span>
+                                </div>
+                                <p class="text-[#93535f] dark:text-[#c4a1a7] text-base leading-relaxed mb-4">
+                                    Find your zen with signature rituals designed to melt away stress and restore your
+                                    inner balance in a tranquil setting.
+                                </p>
+                                <div class="flex gap-3">
+                                    <button
+                                        class="flex-1 bg-primary text-[#1a0f11] h-11 rounded-lg font-bold text-sm hover:brightness-95 transition-all">Book
+                                        Now</button>
+                                    <button
+                                        class="flex-1 border border-primary/40 dark:border-primary/20 text-[#1a0f11] dark:text-white h-11 rounded-lg font-bold text-sm hover:bg-primary/5 transition-all">View
+                                        Prices</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col group">
+                            <div class="relative overflow-hidden rounded-xl aspect-[3/4] mb-6">
+                                <div class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
+                                    data-alt="Brown woman with professional makeup artistry"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA3XEjMcrIDLfZgU7aocXPZOpPlAfREAoMKYTY8tbFKoXHZPiReId8jAiKbPE5Y1Y4FJUf0yRlOJeu2hRk4o2r9pVOjUDya0dh_kPsOoaR0NHEgT7hGib5k4l67tfjq0uFWwpeF2fzh9EV3aq4qBeN7qrctMC1M_M8Ba8DUqUQpGZ79Mpe09qCOg9S6bQW964GGpxlo1EwzipBQYsu_0EkaJmycbHGsReMcz7mFgGyP8dQmIxMK6l8o0AJk71of4XlXfzo6DE8NbAZ3");'>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-[#1a0f11] dark:text-white text-2xl font-bold">Make-Up</h3>
+                                    <span
+                                        class="text-primary text-sm font-bold uppercase tracking-widest">Artistry</span>
+                                </div>
+                                <p class="text-[#93535f] dark:text-[#c4a1a7] text-base leading-relaxed mb-4">
+                                    Expert artistry using an inclusive shade range. We specialize in natural glam and
+                                    high-fashion looks for all complexions.
+                                </p>
+                                <div class="flex gap-3">
+                                    <button
+                                        class="flex-1 bg-primary text-[#1a0f11] h-11 rounded-lg font-bold text-sm hover:brightness-95 transition-all">Book
+                                        Now</button>
+                                    <button
+                                        class="flex-1 border border-primary/40 dark:border-primary/20 text-[#1a0f11] dark:text-white h-11 rounded-lg font-bold text-sm hover:bg-primary/5 transition-all">View
+                                        Prices</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full bg-primary/10 dark:bg-primary/5 mt-20">
+                    <div class="max-w-[960px] mx-auto flex flex-col items-center gap-6 px-4 py-20 text-center">
+                        <div class="flex flex-col gap-3">
+                            <h2 class="text-[#1a0f11] dark:text-white text-4xl font-black tracking-tight">
+                                Experience the Beauty Café
+                            </h2>
+                            <p class="text-[#93535f] dark:text-[#c4a1a7] text-lg font-medium max-w-[600px]">
+                                Join our inner circle for exclusive offers, inclusive beauty tips, and seasonal cherry
+                                blossom event updates.
+                            </p>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md mt-4">
+                            <input
+                                class="flex-1 h-12 px-4 rounded-lg border-primary/30 bg-white dark:bg-[#2d1b1f] dark:text-white focus:ring-primary focus:border-primary"
+                                placeholder="Your email address" type="email" />
+                            <button
+                                class="flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary text-[#1a0f11] text-base font-bold hover:brightness-95 transition-all">
+                                <span>Join the Club</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="bg-background-light dark:bg-background-dark pt-20 pb-10 border-t border-primary/10">
+                <div class="max-w-[1200px] mx-auto px-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-3">
+                                <div class="text-primary">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 48 48"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-serif font-bold">Beauty Café</h3>
+                            </div>
+                            <p class="text-accent-dark/60 dark:text-white/60 leading-relaxed">
+                                Where beauty blooms. A premium lifestyle destination dedicated to the art of relaxation
+                                and refined beauty.
+                            </p>
+                            <div class="flex gap-4">
+                                <a class="w-10 h-10 rounded-full border border-primary/20 flex items-center justify-center hover:bg-primary hover:text-accent-dark transition-all"
+                                    href="https://wa.me/27870960143">
+                                    <span class="material-symbols-outlined text-lg">chat</span>
+                                </a>
+                                <a class="w-10 h-10 rounded-full border border-primary/20 flex items-center justify-center hover:bg-primary hover:text-accent-dark transition-all"
+                                    href="#">
+                                    <span class="material-symbols-outlined text-lg">share</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-6 uppercase tracking-widest text-xs">Explore</h4>
+                            <ul class="space-y-4 text-sm font-medium text-accent-dark/70 dark:text-white/70">
+                                <li><a class="hover:text-primary transition-colors" href="services.html">Our
+                                        Services</a></li>
+                                <li><a class="hover:text-primary transition-colors" href="price-list.html">Price
+                                        List</a></li>
+                                <li><a class="hover:text-primary transition-colors" href="#">About Michelle</a></li>
+                                <li><a class="hover:text-primary transition-colors" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-6 uppercase tracking-widest text-xs">Opening Hours</h4>
+                            <ul class="space-y-4 text-sm text-accent-dark/70 dark:text-white/70">
+                                <li class="flex justify-between"><span>Mon - Fri</span> <span class="font-bold">09:00 -
+                                        18:00</span></li>
+                                <li class="flex justify-between"><span>Saturday</span> <span class="font-bold">09:00 -
+                                        15:00</span></li>
+                                <li class="flex justify-between text-primary/60"><span>Sunday</span> <span
+                                        class="font-bold">Closed</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-6 uppercase tracking-widest text-xs">Contact Us</h4>
+                            <div class="space-y-4 text-sm text-accent-dark/70 dark:text-white/70">
+                                <p class="flex items-start gap-3">
+                                    <span class="material-symbols-outlined text-primary">location_on</span>
+                                    Shop 22, Cycad Shopping Centre,<br />114 Genl Maritz Street,<br />Welgelegen,
+                                    0713,<br />Polokwane, South Africa
+                                </p>
+                                <p class="flex items-center gap-3">
+                                    <span class="material-symbols-outlined text-primary">call</span>
+                                    <a href="tel:0870960143">087 096 0143</a>
+                                </p>
+                                <p class="flex items-center gap-3">
+                                    <span class="material-symbols-outlined text-primary">mail</span>
+                                    <a href="mailto:reception@beauty-cafe.info">reception@beauty-cafe.info</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Map -->
+                    <div
+                        class="w-full h-64 md:h-80 rounded-2xl overflow-hidden mb-12 grayscale hover:grayscale-0 transition-all duration-500">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15022.955462529895!2d29.4716768!3d-23.8824855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6cde43152763f%3A0xc6c4f923c727142!2sCycad%20Centre!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <div
+                        class="border-t border-primary/10 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                        <p class="text-xs text-accent-dark/50 dark:text-white/50">© 2024 Beauty Café. All Rights
+                            Reserved. Web Build, Design & Social C-DV [Creative Division].</p>
+                        <div class="flex gap-8 text-xs text-accent-dark/50 dark:text-white/50">
+                            <a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+                            <a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
